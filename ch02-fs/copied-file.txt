@@ -1,0 +1,2 @@
+random text
+in file.txt

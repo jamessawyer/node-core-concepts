@@ -1,0 +1,2 @@
+random text
+in file.txt这是追加的内容这是追加的内容新家一定好新家一定好

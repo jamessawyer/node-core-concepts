@@ -1,0 +1,30 @@
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    background: #12ac12;
+}
+
+.posts-container .post {
+    background: #fff;
+    box-shadow: -7px 12px 21px -10px rgba(0,0,0,0.43);
+    padding: 16px;
+    border-radius: 4px;
+    margin-top: 8px;
+}
+
+.posts-container h1 {
+    color: #000;
+}
+
+.posts-container p {
+    color: #333;
+}
+
+.posts-container .post__author {
+    text-align: right;
+    color: #ddd;
+}

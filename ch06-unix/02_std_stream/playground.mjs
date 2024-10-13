@@ -1,6 +1,6 @@
 import { stdin, stdout, stderr } from 'node:process'
 
-// 标准输入 -- 可读流
+// 标准输入 -- 双工流
 stdin.on('data', (chunk) => {
     console.log(`Got this data from standard in: ${chunk.toString('utf-8')}`)
 
@@ -8,10 +8,10 @@ stdin.on('data', (chunk) => {
     // stdout.write(`Got this data from standard in: ${chunk.toString('utf-8')}\n`)
 })
 
-// 标准输出 -- 可写流
+// 标准输出 -- 双工流
 stdout.write('this is some text from stdout')
 
-// 标准错误 -- 可写流
+// 标准错误 -- 双工流
 stderr.write('this is some text from stderr')
 
 // 这3种流可以用数字表示

@@ -2,7 +2,7 @@ import { spawn } from 'node:child_process'
 import { stdin, stdout, stderr } from 'node:process'
 
 // 这里的 ./playground 是 playground.c 经过gcc编译后的可执行文件
-// gcc playground.c -0 playground
+// gcc playground.c -o playground
 // spawn() 会打开一个子进程
 spawn(
     './playground',

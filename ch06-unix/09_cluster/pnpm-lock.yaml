@@ -1,0 +1,16 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  cpeak:
+    specifier: ^2.2.5
+    version: 2.2.5
+
+packages:
+
+  /cpeak@2.2.5:
+    resolution: {integrity: sha512-depj3m5qhnfVRx+9UIr2rSbWle9+nReTOQkL3vavIPiylo4v7Vh0c30Q/O8lrJ485TRn10RLFGHLW+H/9dZQ5Q==}
+    dev: false
